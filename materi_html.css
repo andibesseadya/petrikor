@@ -1,0 +1,336 @@
+body {
+    background-color: white;
+}
+
+#UDP {
+    position: relative;
+    text-align: center;
+    font-style: italic;
+    font-size : 65px;
+    font-family: 'Italiana';
+    margin-top: 380px;
+    margin-bottom: 5px;
+    color: #2b506e;
+}
+
+#udp1 {
+    position: relative;
+    text-align: center;
+    font-style: italic;
+    font-size : 65px;
+    font-family: 'Italiana';
+    margin-top: 1px;
+    margin-bottom: 38px;
+    color: #2b506e;    
+}
+
+#Model {
+    position: relative;
+    text-align: center;
+    font-style: normal;
+    font-size : 22px;
+    font-family: 'Josefin Slab';
+    margin-top: 2px;
+    margin-bottom: 65px;
+    color: black;
+}
+
+#gambar {
+    margin-left: 320px;
+    margin-bottom: 160px;    
+}
+
+#user {
+    position: relative;
+    text-align: center;
+    margin-bottom: 45px;
+    font-family: 'Italiana';
+    font-size: 55px;
+    font-style: italic;
+    margin-right: 100px;
+}
+
+#keuntungan {
+    position: relative;
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: 1px;
+    margin-right: 265px;
+    font-family: 'Linden Hill';
+}
+
+#list {
+    position: relative;
+    text-align: justify;
+    font-family: 'Linden Hill';
+    font-size: 16px;
+    margin-left: 280px;
+    list-style-type: square;
+}
+
+#user1 {
+    position: relative;
+    text-align: center;
+    margin-bottom: 45px;
+    font-family: 'Italiana';
+    font-size: 55px;
+    font-style: italic;
+    margin-top: 160px;
+    margin-right: 100px;
+}
+
+#fungsi {
+    position: relative;
+    text-align: left;
+    margin-bottom: 15px;
+    margin-top: 1px;
+    margin-left: 300px;
+    font-family: 'Linden Hill';
+}
+
+#list1 {
+    position: relative;
+    text-align: justify;
+    font-family: 'Linden Hill';
+    font-size: 16px;
+    margin-left: 280px;
+    list-style-type: square;
+}
+
+#user2 {
+    position: relative;
+    text-align: center;
+    margin-bottom: 45px;
+    font-family: 'Italiana';
+    font-size: 55px;
+    font-style: italic;
+    margin-top: 160px;
+    margin-right: 100px;
+}
+
+#port {
+    position: relative;
+    text-align: left;
+    margin-bottom: 15px;
+    margin-top: 1px;
+    margin-left: 300px;
+    font-family: 'Linden Hill';
+}
+
+#adalah {
+    position: relative;
+    text-align: justify;
+    font-family: 'Linden Hill';
+    font-size: 16px;
+    margin-left: 300px;
+    margin-bottom: 20px;
+}
+
+#fungsi_port {
+    position: relative;
+    text-align: left;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    margin-left: 300px;
+    font-family: 'Linden Hill';
+    font-size: 17px;
+}
+
+#list2 {
+    position: relative;
+    text-align: justify;
+    font-family: 'Linden Hill';
+    font-size: 16px;
+    margin-left: 305px;
+    list-style-type: square;
+    margin-top: 8px;
+}
+
+#terminologi {
+    position: relative;
+    text-align: justify;
+    font-family: 'Linden Hill';
+    font-size: 16px;
+    margin-left: 300px;
+    margin-bottom: 10px;
+}
+
+#fisik {
+    position: relative;
+    text-align: justify;
+    font-family: 'Linden Hill';
+    font-size: 16px;
+    margin-left: 305px;
+    list-style-type: square;
+    margin-top: 10px;
+}
+
+#nomor {
+    position: relative;
+    text-align: justify;
+    font-family: 'Linden Hill';
+    font-size: 16px;
+    margin-left: 300px;
+    margin-top: 30px;
+}
+
+#list3 {
+    position: relative;
+    text-align: justify;
+    font-family: 'Linden Hill';
+    font-size: 16px;
+    margin-left: 305px;
+    list-style-type: square;
+    margin-top: 10px;
+}
+
+#user3 {
+    position: relative;
+    text-align: center;
+    margin-bottom: 45px;
+    font-family: 'Italiana';
+    font-size: 55px;
+    font-style: italic;
+    margin-top: 160px;
+    margin-right: 100px;
+}
+
+#UDP_Penjelasan {
+    position: relative;
+    text-align: left;
+    margin-bottom: 15px;
+    margin-top: 1px;
+    margin-left: 300px;
+    font-family: 'Linden Hill';
+}
+
+#merupakan {
+    position: relative;
+    text-align: justify;
+    font-family: 'Linden Hill';
+    font-size: 16px;
+    margin-left: 300px;
+    margin-bottom: 20px;
+}
+
+#fungsi_UDP {
+    position: relative;
+    text-align: justify;
+    font-family: 'Linden Hill';
+    font-size: 16px;
+    margin-left: 280px;
+    margin-bottom: 20px;
+}
+
+#list4 {
+    position: relative;
+    text-align: justify;
+    font-family: 'Linden Hill';
+    font-size: 16px;
+    margin-left: 290px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#kerja_UDP {
+    position: relative;
+    text-align: justify;
+    font-family: 'Linden Hill';
+    font-size: 16px;
+    margin-left: 280px;
+    margin-bottom: 12px;
+    margin-top: 50px;
+}
+
+#kerja {
+    position: relative;
+    text-align: justify;
+    font-family: 'Linden Hill';
+    font-size: 16px;
+    margin-left: 320px;
+}
+
+#user4 {
+    position: relative;
+    text-align: center;
+    margin-bottom: 45px;
+    font-family: 'Italiana';
+    font-size: 55px;
+    font-style: italic;
+    margin-top: 160px;
+    margin-right: 100px;
+}
+
+#checksum {
+    position: relative;
+    text-align: left;
+    margin-bottom: 15px;
+    margin-top: 1px;
+    margin-left: 300px;
+    font-family: 'Linden Hill';
+}
+
+#metode {
+    position: relative;
+    text-align: justify;
+    font-family: 'Linden Hill';
+    font-size: 16px;
+    margin-left: 300px;
+    margin-bottom: 20px;
+}
+
+#cara {
+    position: relative;
+    text-align: justify;
+    font-family: 'Linden Hill';
+    font-size: 16px;
+    margin-left: 280px;
+    margin-bottom: 1px;
+    margin-top: 20px;
+}
+
+#metode1 {
+    position: relative;
+    text-align: justify;
+    font-family: 'Linden Hill';
+    font-size: 16px;
+    margin-left: 320px;
+    margin-bottom: 20px;
+}
+
+#contoh {
+    position: relative;
+    text-align: justify;
+    font-family: 'Linden Hill';
+    font-size: 16px;
+    margin-left: 280px;
+    margin-bottom: 1px;
+    margin-top: 20px;
+}
+
+#contoh1 {
+    position: relative;
+    text-align: justify;
+    font-family: 'Linden Hill';
+    font-size: 16px;
+    margin-left: 320px;
+    margin-bottom: 20px;
+}
+
+#lokasi2 {
+    position: relative;
+	left: 600px;
+	top:190px;
+	font-family: "Abel";
+	font-style: italic;
+	z-index: 2;
+}
+
+#copyright {
+    position: relative;
+	left: 580px;
+	top :200px;
+	font-family: "Abel";
+	font-style: italic;
+	z-index: 2;
+}

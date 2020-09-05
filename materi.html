@@ -1,0 +1,243 @@
+<html>
+	<head>
+		<title id = "title"> Website Tugas </title>
+		<link rel="stylesheet"  href="materi_html.css">
+		<link href='https://fonts.googleapis.com/css?family=Italiana' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=Neucha' rel='stylesheet'>
+		<link href='https://fonts.googleapis.com/css?family=Linden Hill' rel='stylesheet'>
+		<link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet'>
+
+	</head>
+
+	<body>
+
+		<div>
+			<h1 id = "UDP"> User Datagram Protocol </h1>
+            <h1 id = "udp1"> (UDP)</h1>
+			<p id = "Model"> Model Referensi TCP/IP </p>
+            <img id = "gambar" src="model.png" alt="Gambar Model Referensi" height="500" width="600"> 
+		</div>
+
+		<div>
+             <h1 id = "User"> User Datagram Protocol </h1>
+             <h2 id = "keuntungan"> Keuntungan Menggunakan Layered Model</h2>
+             <p>
+			 	<ul> 
+				 	<li id = "list"> Membantu dalam desain protokol, karena protokol yang beroperasi pada lapisan tertentu<br> 
+			 			 telah mendefinisikan informasi dan bertindak untuk tugas tertentu dan menjadi penghubung<br> 
+						 untuk lapisan atas dan bawahnya.
+						 </li> 
+					<li id= "list">Percepatan kompetisi antar vendor.</li>
+					<li id= "list"> Mencegah pengaruh terhadap layer lainnya akibat adanya efek yang terjadi akibat perubahan<br> 
+						 teknologi dan kemampuan pada suatu layer.
+						 </li>
+					<li id= "list"> Menyediakan bahasa yang sama dalam mendeskripsikan fungsi dan kemampuan jaringan. </li>			
+			 	</ul>
+			</p>
+		</div>
+
+		<div>
+			<h1 id = "User1"> User Datagram Protocol </h1>
+			<h2 id = "fungsi"> Fungsi Layer Transport </h2>
+			<p>
+			 	<ul> 
+				 	<li id = "list1">Menerima data dari session layar.</li> 
+					<li id= "list1">Memecah data menjadi bagian - bagian yang lebih kecil.</li>
+					<li id= "list1">Meneruskan data ke network layer.</li>
+					<li id= "list1">Memastikan bahwa semua data yang melewatinya dapat tiba<br> 
+									di sisi lainnya dengan tepat.</li>
+					<li id= "list1"> Mengirim segment dari satu host ke host yang lain. </li>		
+					<li id= "list1"> Memastikan realibilitas data. </li>
+					<li id= "list1"> Mengatur lalu lintas dari sebuah jaringan.  </li>	
+			 	</ul>
+			</p>
+		</div>
+
+		<div> 
+			<h1 id = "User2"> User Datagram Protocol </h1>
+			<h2 id = "port"> Port Number, Fungsi, dan Contoh Cara Kerja </h2>
+			<p id= "adalah">
+				Port pada protokol jaringan TCP/IP adalah mekanisme yang mengizinkan sebuah komputer untuk mendukung<br> 
+				beberapa sesi koneksi dengan komputer lainnya dan program di dalam jaringan. Port dapat mengidentifikasikan<br> 
+				aplikasi dan layanan yang menggunakan koneksi di dalam jaringan TCP/IP. Sehingga, port juga mengidentifikasikan<br> 
+				sebuah proses tertentu di mana sebuah server dapat memberikan sebuah layanan kepada klien atau bagaimana<br> 
+				sebuah klien dapat mengakses sebuah layanan yang ada dalam server. Port dapat dikenali dengan angka 16-Bit (dua<br> 
+				byte) yang disebut dengan Port Number dan diklasifikasikan dengan jenis protokol transport apa yang digunakan, ke<br> 
+				dalam Port TCP dan Port UDP. Karena memiliki angka 16-bit, maka total maksimum jumlah port untuk setiap protokol<br> 
+				transport yang digunakan adalah 65536 buah.
+			</p>
+			<h3 id = "fungsi_port"> &#8209; Fungsi Port Number : </h3>
+			<p>
+			 	<ul> 
+				 	<li id = "list2"><b>Port serial</b> digunakan untuk mentransmisikan data dari jarak jauh secara lambat, seperti keyboard,<br> 
+					 				 mouse, monitor, dan modem dial-up. </li> 
+					<li id= "list2"><b>Port paralel</b> untuk mentransmisikan data pada jarak yang pendek secara cepat. Port ini sering dipakai<br>
+									untuk menghubungkan printer, disk eksternal, atau tape magnetik untuk bacup.</li>
+					<li id= "list2"><b>Port SCSI (small computer system interface)</b>, untuk mentransmisikan data secara cepat bahkan dapat dipakai<br> 
+									untuk 7 alat sekaligus atau “daisy chain“. Contoh daisy chain : dari SCSI kontroller kemudian disambungkan<br> 
+									ke perangkat hardisk drive eksternal, dari HDD eksternal disambungkan secara seri ke perangkat yang lain seperti<br> 
+									tape drive, kemudian dari tape drive tsb bisa juga disambungkan ke CD/DVD drive dan seterusnya. </li>
+					<li id= "list2"><b>Port USB (universal serial bus)</b>, untuk mentransmisikan data hingga 127 periferal dalam rangkaian daisy chain.</li>
+					<li id= "list2"><b>Port tambahan khusus</b> seperti : FireWire, MIDI, IrDa, Bluetooth, dan ethernet. Fire Wire berfungsi untuk camcorder,<br> 
+									pemutar DVD,dan TV. Sedangkan port MIDI (musical instrument digital interface) untuk menghubungkan instrumen musik.<br> 
+									Kemudian port IrDA (Infrared Data Association) untuk koneksi nirkabel sejauh beberapa kaki. Port Bluetooth adalah<br> 
+									gelombang radio jarak pendek yang bisa menstransmisikan sejauh 9 m.  </li>		
+					<li id= "list2"><b>Port ethernet</b> adalah untuk LAN. </li>
+			 	</ul>
+			</p>
+
+			<p id = "terminologi"> 
+				Pada terminologi jaringan komputer, port merupakan titik komunikasi spesifik yang digunakan oleh sebuah aplikasi yang memanfaatkan<br>
+				lapisan transport pada teknologi TCP / IP. Pada terminologi komputer ada dua jenis Port yaitu :
+			</p>
+			
+			<p>
+			 	<ul> 
+				 	<li id = "fisik"><b>Port Fisik</b> adalah soket/ slot / colokan yang ada di belakang CPU sebagai penghubung peralatan<br>
+					 				 input-output komputer, misalnya PS2 Port yang digunakan oleh Mouse dan Keyboard, USB Port atau Paralel Port.</li> 
+					<li id= "fisik"><b>Port Logika (non fisik)</b>,adalah port yang di gunakan oleh aplikasi sebagai jalur untuk melakukan koneksi<br> 
+									 dengan komputer lain mealalui teknologi TCP/IP, tentunya termasuk koneksi internet.</li>
+			 	</ul>
+			</p>
+
+			<p id = "nomor"> 
+				Dilihat dari penomorannya, port UDP dan TCP dibagi menjadi tiga jenis, yakni sebagai berikut:
+			</p>
+
+			<p>
+			 	<ul> 
+				 	<li id = "list3"><b>Well-known Port:</b> yang pada awalnya berkisar antara 0 hingga 255 tapi kemudian diperlebar untuk mendukung<br>
+					 					antara 0 hingga 1023. Port number yang termasuk ke dalam well-known port, selalu merepresentasikan layanan<br> 
+										jaringan yang sama, dan ditetapkan oleh Internet Assigned Number Authority (IANA). Beberapa di antara port-port<br> 
+										yang berada di dalam range Well-known port masih belum ditetapkan dan direservasikan untuk digunakan oleh layanan<br> 
+										yang bakal ada di masa depan. Well-known port didefinisikan dalam RFC 1060.</li> 
+					<li id= "list3"><b>Registered Port:</b> Merupakan Port-port yang digunakan oleh vendor-vendor komputer atau jaringan yang berbeda untuk<br>
+									   mendukung aplikasi dan sistem operasi yang mereka buat. Registered port juga diketahui dan didaftarkan oleh IANA tapi<br>
+									   tidak dialokasikan secara permanen, sehingga vendor lainnya dapat menggunakan port number yang sama. Range registered<br> 
+									   port berkisar dari 1024 hingga 49151 dan beberapa port di antaranya adalah Dynamically Assigned Port.</li>
+			 	    <li id= "list3"><b>Dynamically Assigned Port:</b> merupakan port-port yang ditetapkan oleh sistem operasi atau aplikasi yang digunakan untuk<br> 
+					 				   melayani request dari pengguna sesuai dengan kebutuhan. Dynamically Assigned Port berkisar dari 1024 hingga 65536 dan <br>
+									   dapat digunakan atau dilepaskan sesuai kebutuhan.</li>
+				 </ul>
+			</p>
+		</div>
+
+		<div>
+			<h1 id = "User3"> User Datagram Protocol </h1>
+			<h2 id = "UDP_Penjelasan"> UDP dan Prinsip Kerjanya </h2>
+			<p id= "merupakan">
+				User Datagram Protocol (UDP) merupakan salah satu jenis protokol internet. Melalui UDP, sebuah aplikasi komputer<br> 
+				dimungkinkan untuk mengirim pesan kepada komputer lain di sebuah jaringan tanpa perlu melalui proses komunikasi awal.<br> 
+				UDP memiliki karakteristik utama berupa “connectionless”, artinya, pesan yang dikirimkan melalui UDP bisa sampai tanpa<br> 
+				memerlukan proses negosiasi koneksi antara dua komputer host yang ingin bertukar info. Selain itu, karakteristik UDP lainnya<br> 
+				adalah “unreliable”, artinya semua pesan yang dikirimkan tidak memiliki nomor urut atau pesan pemberitahuan. Jika selama<br> 
+				transmisi ada pesan-pesan yang hilang, maka protokol aplikasi yang letaknya di atas UDP harus memulihkan pesan tersebut.
+			</p>
+
+			<p>
+				<ul>
+					<li id= "fungsi_UDP"> Fungsi UDP : </li>
+				</ul>
+			</p>
+
+			<p>
+				<ol>
+					<li id = "list4"> Cocok untuk mengirimkan informasi yang membutuhkan kecepatan daripada kehandalan, seperti misalnya<br> 
+						 video atau audio streaming.</li>
+					<li id = "list4"> Salah satu protokol yang “ringan”, artinya mampu secara efektif memakai sumber daya profesor dan memori,<br> 
+									  bahkan menghematnya. Jika sebuah protokol dapat dikatakan ringan, maka protokol tersebut dapat melaksanakan<br> 
+									  fungsi spesifik dengan saling bertukar pesan, seperti misalnya query nama dalam DNS. </li>
+					<li id = "list4"> UDP mengimplementasikan layanan keandalan, artinya protokol ini memfasilitasi layanan pertukaran data dengan<br> 
+									  andal, seperti misalnya yang ditemukan pada TFTP (Trivial File Transfer Protocol), dan NFS.</li>
+					<li id = "list4"> Tidak membutuhkan keandalan, misalnya saja pada bagian Routing Information Protocol (RIP). </li>
+					<li id = "list4"> Dapat melakukan transmisi broadcast, sebab tak perlu adanya koneksi terlebih dahulu dengan host yang spesifik.<br> 
+									  Sebuah paket data dapat dikirimkan dengan beberapa tujuan yang dialamatkan pada multicast atau broadcast.</li>
+				</ol>
+			</p>
+
+			<p>
+				<ul>
+					<li id= "kerja_UDP"> Cara Kerja UDP : </li>
+				</ul>
+			</p>
+			
+			<p id = "kerja">
+				Seperti juga pada kasus TCP,UDP pun memiliki sebuah saluran (channel) yang berguna untuk menghubungkan host antar host untuk<br>
+				saling berkirim informasi. Channel ini kemudian disebut dengan port UDP. Agar dapat terhubung dengan protokol UDP, aplikasi pada<br> 
+				komputer terlebih dahulu perlu menyediakan alamat IP serta nomor port UDP dari host yang ingin dituju.<br>
+
+				<br>Port UDP ini berguna sebagai sebuah multiplexed message queue. Artinya, port UDP tersebut kemudian mampu bekerja dengan menerima<br> 
+				beberapa pesan secara bersamaan. Setiap port UDP memiliki identifikasi dengan nomor yang unik, namun memiliki pembagian tersendiri<br> 
+				seperti yang telah dijelaskan sebelumnya.<br>
+
+				<br>Walaupun cukup bermanfaat, namun UDP sendiri memiliki beberapa kelemahan dalam cara kerjanya. Misalnya saja, UDP tidak memfasilitasi<br> 
+				mekanisme buffering data masuk dan keluar. Selain itu, UDP juga tak memfasilitasi segmentasi data yang ukurannya besar untuk disederhanakan<br> 
+				ke dalam segmen-segmen data, yang bisa dilakukan dengan TCP. Dalam protokol UDP juga tidak terdapat mekanisme flow-control seperti<br> 
+				layaknya TCP.
+			</p>
+		</div>
+
+		<div>
+			<h1 id = "User4"> User Datagram Protocol </h1>
+			<h2 id = "checksum"> Prinsip Kerja Checksum Checking dan Contoh </h2>
+			<p id= "metode">
+				Metode Error detection yang dilakukan dengan melakukan penjumlahan pada sekumpulan data, dimana<br> 
+				hasil dari penjumlahan tersebut akan dicomplement dan hasilnya akan ditambahkan pada data sebagai<br> 
+				sebuah karakter.penjumlahan karakter dalam data inilah yang disebut dengan checksum.
+			</p>
+
+			<p>
+			 	<ul> 
+				 	<li id = "cara"> Cara Kerja : </li>
+			 	</ul>
+			</p>
+
+			<p id= "metode1">
+				menjumlahkan (ones complement) semua data yang ditransmisikan dan mengirim hasil penjumlahan<br> 
+				ke penerima. Hasil penjumlahan disebut checksum, penerima harus menjumlahkan data yang diterima<br> 
+				juga menggunakan ones complement, yang nantinya akan dicocokkan dengan checksum. Jika hasilnya<br> 
+				tidak sama, maka terjadi error pada data.
+			</p>
+
+			<p>
+			 	<ul> 
+				 	<li id = "contoh"> Contoh : </li>
+			 	</ul>
+			</p>
+
+			<p id= "contoh1">
+				<ins>Contoh 1:</ins><br>
+				Misalkan blok data 16 bit di bawah ini akan dikirim menggunakan checksum 8 bit.<br>
+				10101001   &ensp; &ensp;      00111001 <br>
+				Data diatas ditambahkan dengan menggunakan one’s complement<br>
+				.          &ensp; &ensp;      10101001 <br>
+				.          &ensp; &ensp;      00111001 <br>
+				Sum        &ensp; &ensp;      11100010 <br>
+				Checksum 00011101 <br>
+				Maka bentuk data yang dikirimkan adalah<br>
+				10101001      &ensp; &ensp;   001110011    &ensp; &ensp;   00011101
+				<br>
+				<br>
+
+				<ins>Contoh 2:</ins><br>
+				Sekarang, misalkan si penerima menerima data<br>
+				10101001   &ensp; &ensp;      00111001    &ensp; &ensp;     00011101<br>
+				Ketika si penerima menambahkan tiga bagian data, maka akan didapatkan 1s, yang mana,<br> 
+				setelah dikomplemenkan hasil semuanya adalah nol dan hal tersebut menunjukan data yang<br> 
+				diterima tidak terdapat error.<br>
+				.              &ensp; &ensp;              10101001<br>
+				.              &ensp; &ensp;              00111001<br>
+				.              &ensp; &ensp;              00011101<br>
+				Sum            &ensp; &ensp;        11111111<br>
+				Complement   00000000 berarti data OK.<br>
+			</p>
+		</div>
+
+		<div>
+			<p id = "lokasi2"> Makassar, South Sulawesi, Indonesia</p>
+			<p id = "copyright"> &#169 by  Andi Besse Adya Febryana Adiaspoetri </p>
+		</div>
+
+	</body>
+
+</html>
