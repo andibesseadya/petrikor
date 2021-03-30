@@ -1,285 +1,415 @@
-body {
-	background-color: #cce5e6;
-
+/* Pembuka */
+body{
+    background-color: #ebebe0;
+    width: 30%;
 }
 
-#Nama_yang_punya {
-	position: relative;
-	left: 380px;
-	top : 70px;
-	font-family: "Sofia";
+.container {
+   width: 1000px;
+   min-height: 200px;
+   margin:100%;
+   text-align:auto;
 }
 
-#websitee{
-	position: relative;
-	left: 620px;
-	top: 50px;
-	font-family: "Sofia";
+/* Menu */
+.kop1 {
+    font-family: 'Bubbler One';
+    font-size: 22px;
+    color: #133435;
+    top: -5px;
+    left: 15px;
+    position:relative;
 }
 
-#line {
-	position: relative;
-	color: black;
-	left: 320px; 
-
+.menu {
+    font-family: 'Bubbler One';
+    color: #133435;
+    position:absolute;
+    top: 0px;
+    right: 50px;
 }
 
-#Home {
-	position: relative;
-	left: 522px;
-	top: 60px;
-	color: black;
-	text-decoration: none;
-	font-family: "Abel";
+.menu h2{
+    font-size: 22px;
+    margin-left: 15px;
 }
 
-#Materi {
-	position: relative;
-	left: 555px;
-	top:60px;
-	color: black;
-	text-decoration: none;
-	font-family: "Abel";
+.Profile {
+    top: -50px;
+    left: 370px;
+    display: inline-block;
 }
 
-#about {
-	position: relative;
-	left: 588px;
-	top: 60px;
-	color: black;
-	text-decoration: none;
-	font-family: "Abel";
-}
-#contact {
-	position: relative;
-	left: 621px;
-	top: 60px;
-	color: black;
-	text-decoration: none;
-	font-family: "Abel";
+.Education {
+    top: -95px;
+    left: 440px;
+    display: inline-block;
 }
 
-#welcome {
-	position: relative;
-	left: 510px;
-	top:308px;
-	font-family: 'Sorts Mill Goudy';
-	font-size: 50px;
-	color: white;
-	text-shadow: 4px 2px 10px black;
+.Experience {
+    top: -140px;
+    left: 540px;
+    display: inline-block;
 }
 
-#intro1 {
-	position: relative;
-	left: 280px;
-	top: 280px;
-	font-family: 'Arial';
-	font-style: italic;
-	color: white;
+.Skills {
+    top: -185px;
+    left: 650px;
+    display: inline-block;
 }
 
-#intro2 {
-	position: relative;
-	left: 525px;
-	top: 270px;
-	font-family: 'Arial';
-	font-style: italic;
-	color: white;
+.Latihan1 {
+    top: -185px;
+    left: 650px;
+    display: inline-block;
 }
 
-#user {
-	position: relative;
-	left: 360px;
-	top: 100px;
-	font-family: 'Sorts Mill Goudy';
-	font-size: 45px;
-	color: black;
-	z-index: 2;
+.mahasiwa {
+    top: -200px;
+    left: 6500px;
+    display: inline-block;
 }
 
-#Tugas {
-	position: relative;
-	left: 580px;
-	top :80px;
-	font-family: 'Abel';
-	color: black;
-	z-index: 2;
+/* Profile */
+
+.shape {
+    margin-top: 190px;
 }
 
-#viewmore:link, #viewmore:visited {
-	position: relative;
-	left: 605px;
-	top: 120px;
-	font-family: "Abel";
-	text-decoration: none;
-	z-index: 2;
-	background-color: rgb(242,240,225);
- 	color: black;
-    padding: 14px 25px;
-    border-style: solid;
-	border-width: 1px;
-	border-color: black;
-}
-#viewmore:hover, #viewmore:active {
-  background-color: black;
-  color: white;
+.circle {
+    height: 200px;
+    width: 200px;
+    background-color: #FFFF;
+    margin-top: 20px;
+    margin: auto;
+    border-radius: 50%;
+    position: relative;
+    top: -650px;
+    z-index: 2;
+    left: 430px;
 }
 
-
-#GiT{
-	position: relative;
-	left: 100px;
-	top:100px;
-	font-family: "Dancing Script";
-	font-size: 40px;
-	z-index: 2;
+.square{
+    height: 400px;
+    width: 600px;
+    margin-top: 40px;
+    margin: auto;
+    background-color: #bec496;
+    position: relative;
+    top: -755px;
+    z-index: 1;
+    left: 330px;
 }
 
-#lokasi{
-	position: relative;
-	left: 100px;
-	top:80px;
-	font-family: "Abel";
-	font-size: 15px;
-	font-style: italic;
-	z-index: 2;
+.square2{
+    height: 50px;
+    width: 600px;
+    margin-top: 40px;
+    margin: auto;
+    background-color: #63815c;
+    position: relative;
+    top: -755px;
+    z-index: 1;
+    left: 330px;
+    text-align: center;
 }
 
-#email{
-	position: relative;
-	left: 100px;
-	top:85px;
-	font-family: "Abel";
-	font-size: 15px;
-	z-index: 2;
+.square2 img {
+    height: 85%;
 }
 
-#inputnama {
-	position: relative;
-	left: 100px;
-	top:100px;
-	font-family: "Abel";
-	border-style: solid;
-	border-width: 1px;
-	border-color: black;
-	padding-top: 15px;
-	padding-bottom: 15px;
-	padding-right: 430px;
-	z-index: 2;
-	background-color: transparent;
+.BGT {
+    position: relative;
+    height: 500px;
+    width: 1250px;
+    top: -150px;
+    z-index: 0;
+    opacity:0.8;
 }
 
-#inputalamat {
-	position: relative;
-	left: 100px;
-	top:105px;
-	font-family: "Abel";
-	border-style: solid;
-	border-width: 1px;
-	border-color: black;
-	padding-top: 15px;
-	padding-bottom: 15px;
-	padding-right: 430px;
-	z-index: 2;
-	background-color: transparent;
+.hello {
+    font-family: 'Chilanka';
+    font-size: 60px;
+    color: #133435;
+    top: -1270px;
+    left: 555px;
+    position:relative;
+    z-index: 2;
 }
 
-#inputemail {
-	position: relative;
-	left: 100px;
-	top:110px;
-	font-family: "Abel";
-	border-style: solid;
-	border-width: 1px;
-	border-color: black;
-	padding-top: 15px;
-	padding-bottom: 15px;
-	padding-right: 160px;
-	background-color: transparent;
+.nama {
+    font-family: 'Abhaya Libre';
+    font-size: 22px;
+    top: -1250px;
+    left: 560px;
+    position:relative;
+    z-index: 1;
 }
 
-#inputsubject {
-	position: relative;
-	left: 100px;
-	top:115px;
-	font-family: "Abel";
-	border-style: solid;
-	border-width: 1px;
-	border-color: black;
-	padding-top: 15px;
-	padding-bottom: 15px;
-	padding-right: 430px;
-	z-index: 2;
-	background-color: transparent;
+.status {
+    font-family: 'Abhaya Libre';
+    font-size: 12px;
+    top: -1270px;
+    left: 560px;
+    position:relative;
+    z-index: 1;
 }
 
-#Message {
-	position: relative;
-	left: 100px;
-	top:120px;
-	font-family: "Abel";
-	border-style: solid;
-	border-width: 1px;
-	border-color: black;
-	background-color: transparent;
+.phone {
+    font-family: 'Abhaya Libre';
+    font-size: 17px;
+    top: -1270px;
+    left: 560px;
+    position:relative;
+    z-index: 1;
 }
 
-#submit {
-	position: relative;
-	left: 100px;
-	top:125px;
-	font-family: "Abel";
-	border-style: solid;
-	border-width: 1px;
-	border-color: black;
-	background-color: transparent;
-
+.number {
+    font-family: 'Abhaya Libre';
+    font-size: 12px;
+    top: -1300px;
+    left: 560px;
+    position:relative;
+    z-index: 1;
 }
 
-#inputphone {
-	position: relative;
-	left: 100px;
-	top:110px;
-	font-family: "Abel";
-	border-style: solid;
-	border-width: 1px;
-	border-color: black;
-	padding-top: 15px;
-	padding-bottom: 15px;
-	padding-right: 147px;
-	z-index: 2;
-	background-color: transparent;
+.email {
+    font-family: 'Abhaya Libre';
+    font-size: 17px;
+    top: -1310px;
+    left: 560px;
+    position:relative;
+    z-index: 1;
 }
 
-#lokasi2{
-	position: relative;
-	left: 600px;
-	top:190px;
-	font-family: "Abel";
-	font-style: italic;
-	z-index: 2;
+.add {
+    font-family: 'Abhaya Libre';
+    font-size: 12px;
+    top: -1340px;
+    left: 560px;
+    position:relative;
+    z-index: 1;
 }
 
-#copyright {
-	position: relative;
-	left: 580px;
-	top :200px;
-	font-family: "Abel";
-	font-style: italic;
-	z-index: 2;
+.address {
+    font-family: 'Abhaya Libre';
+    font-size: 17px;
+    top: -1350px;
+    left: 560px;
+    position:relative;
+    z-index: 1;
 }
 
-#userdiagram {
-	position: relative;
-	background-color: rgb(242,240,225);
-	z-index: 1;
-	padding-top: 10px;
-	padding-bottom: 250px;
-	padding-right: 20px;
-	padding-left: 20px; 
+.alamat {
+    font-family: 'Abhaya Libre';
+    font-size: 12px;
+    top: -1380px;
+    left: 560px;
+    position:relative;
+    z-index: 1;
 }
 
-#last{
-	background-image: url("starfish.JFIF");
-	padding-bottom: 120px;
+.age {
+    font-family: 'Abhaya Libre';
+    font-size: 17px;
+    top: -1390px;
+    left: 560px;
+    position:relative;
+    z-index: 1;
+}
+
+.umur {
+    font-family: 'Abhaya Libre';
+    font-size: 12px;
+    top: -1420px;
+    left: 560px;
+    position:relative;
+    z-index: 1;
+}
+
+/* Kalimat Pembuka */
+.hi {
+    font-family: 'Abhaya Libre';
+    font-size: 50px;
+    color: #63815c;
+    top: -1240px;
+    left: 555px;
+    position:relative;
+    z-index: 2;
+}
+
+.kalimat {
+    font-family: 'Abhaya Libre';
+    font-size: 20px;
+    color: #133435;
+    top: -1265px;
+    left: 300px;
+    position:relative;
+    text-align: justify;
+    z-index: 1;
+    width: 700px;
+}
+
+/* Education */
+.square3 {
+    background-color: #bec496;
+    position: relative;
+    top: -1000px;
+    height: 400px;
+    width: 1250px;
+}
+
+.education {
+    position:relative;
+    left: 495px;
+    font-family: 'Adamina';
+    font-size: 28px;
+    color: #133435;
+    top: -1400px;
+    z-index: 2;
+}
+.pendidikan table{
+    width: 500px;
+    position: relative;
+    top: -1375px;
+    left: 375px;
+}
+.pendidikan table td{
+    padding: 20px;
+}
+
+/* Experience */
+.experience {
+    position:relative;
+    left: 495px;
+    font-family: 'Adamina';
+    font-size: 28px;
+    color: #63815c;
+    top: -1200px;
+    z-index: 2;
+}
+
+.pelatihan table {
+    width: 900px;
+    position: relative;
+    top: -1200px;
+    left: 275px;
+}
+
+.pelatihan table td {
+    padding: 20px;
+}
+
+/* Skills */
+
+.square4 {
+    background-color: #bec496;
+    position: relative;
+    top: -1000px;
+    height: 400px;
+    width: 1250px;
+}
+
+.skills {
+    position:relative;
+    left: 540px;
+    font-family: 'Adamina';
+    font-size: 28px;
+    color: #133435;
+    top: -920px;
+    z-index: 2;
+}
+.keterampilan table{
+    margin: auto;
+}
+.keterampilan table td {
+    padding: 70px 0 0 70px;
+    width: 300px;
+    font-family:'Adamina';
+}
+
+.keterampilan table td div {
+    border: solid 1px black;
+    height: 20px;
+    display: inline-block;
+    }
+
+.keterampilan div.satu{
+    background-color: #133435;
+    width: 150px;
+}
+
+.keterampilan div.dua{
+    width: 60px;
+    margin-left: -5px;
+}
+
+.keterampilan div.tiga{
+    background-color: #133435;
+    width: 100px;
+}
+
+.keterampilan div.empat{
+    width: 110px;
+    margin-left: -5px;
+}
+
+/* Halaman Baru */
+.tugas {
+    font-family: 'Abhaya Libre';
+    font-size: 50px;
+    color:  #133435;
+    text-align: center;
+    left: 370px;
+    width: 500px;
+    top: -620px;
+    position:relative;
+}
+
+.square5 {
+    background-color: #caa9ca;
+    position: relative;
+    top: 20px;
+    height: 620px;
+    width: 1250px;
+}
+
+.statistik {
+    font-family: 'Abhaya Libre';
+    font-size: 30px;
+    color: #63815c;
+    text-align: center;
+    left: 370px;
+    width: 500px;
+    top: -620px;
+    position:relative;
+}
+
+.top form input{
+    font-family: 'Abhaya Libre';
+    font-size: 20px;
+    text-align: justify;
+    left: 400px;
+    top: -620px;
+    width: 350px;
+    height: 20px;
+    z-index: 1;
+    position: relative;
+}
+.button1{
+   margin:0%;
+   margin-left: 520px;
+   margin-top: -620px;
+   width: 200px;
+   z-index: 1;
+   position: relative;
+}
+.hasil {
+    font-family: 'Adamina';
+    text-align: justify;
+    font-size: 15px;
+    left: 400px;
+    top: -430px;
+    z-index: 1;
+    position: relative;
 }
